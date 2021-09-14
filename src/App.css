@@ -1,0 +1,48 @@
+*, h1{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.title-text{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+
+}
+.timer{
+    margin: auto;
+    width: 280px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 3px;
+    background:white;
+    box-shadow: 0px 0px 1px 0px #656565;
+}
+.scoreboard{
+    margin: 0;
+    padding: 10px 40px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 3px;
+    background-color: rgba(51, 178, 202, .3);
+    font-size: 40px;
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    border:none;
+    outline: none;
+    background: transparent;
+
+    text-transform: uppercase;
+    font-size: 20px;
+
+    border-bottom: 2px solid rgba(0, 0, 0, .2);
+
+}
+.button:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
